@@ -2,9 +2,9 @@ import React, { useState, useCallback } from "react";
 import { useSelector } from "react-redux";
 import { useHistory } from "react-router-dom";
 import { BiCartAlt } from "react-icons/bi";
-import { CartMenu } from "../cart-menu";
-import { ItemsInCart } from "../items-in-cart";
-import { calcTotalPrice } from '../utils';
+import { CartMenu } from "../../../../../untitled/game-store/src/components/cart-menu";
+import { ItemsInCart } from "../../../../../untitled/game-store/src/components/items-in-cart";
+import { calcTotalPrice } from '../../../../../untitled/game-store/src/components/utils';
 import "./cart-block.css";
 
 export const CartBlock = () => {
